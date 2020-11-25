@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Times New Roman";
+    font-family: "Open Sans";
 }
 
 .container {
@@ -84,13 +84,13 @@ p.text-muted {
 
 button.btn-primary {
     padding: 22px 58px;
-    background-color: #6495ED;
+    background-color: #3d99d6;
     border-radius: 100px;
     color: white;
     border: none;
     font-size: 20px;
     font-weight: 500;
-    box-shadow: 0 10px 20px coral;
+    box-shadow: 0 10px 20px black;
     margin: 24px 0;
     text-transform: uppercase;
     cursor: pointer;
@@ -110,7 +110,7 @@ button:focus {
 }
 
 button:hover {
-    background:  #6495ed;
+    background:  #000099;
     cursor: pointer;
 }
 
@@ -155,12 +155,12 @@ footer h4 {
     opacity: 0,7;
     border-radius: 4px;
   }
-
+  
   .animasi {
     transition: 0.1s;
     -webkit-transition: 0.1s;
   }
-
+  
   .tombol-aktif {
     padding: 10px 40px;
     border-radius: 10px;
@@ -170,7 +170,7 @@ footer h4 {
     color: white;
     text-decoration: none;
   }
-
+  
   .biru {
     background-color:#3d99d6;;
     border-bottom: 5px solid black;
@@ -193,7 +193,7 @@ footer h4 {
       display: flex;
       justify-content: space-between;
   }
-
+  
   .nav-links {
       display: flex;
       width: 100%;
@@ -213,12 +213,12 @@ footer h4 {
       left: 80px;
       position: absolute;
   }
-
+  
   h1.large-title {
       font-size: 30px;
       color: black;
   }
-
+  
   p.text-muted {
       font-size: 15px;
       color: black;
@@ -239,7 +239,7 @@ footer h4 {
       cursor: pointer;
       transition: .5s;
   }
-
+  
   button.btn-primary:hover {
       width: 100%;
   }
@@ -249,13 +249,13 @@ footer h4 {
       background-color: white;
       text-align: center;
   }
-
+  
   footer h4 {
       font-size: 15px;
       letter-spacing: 5px;
       margin-bottom: 50px;
   }
-
+  
   .button-dimensi {
       padding: 12px 24px;
       color: black;
@@ -263,7 +263,7 @@ footer h4 {
       opacity: 0,7;
       border-radius: 4px;
     }
-
+    
     .tombol-aktif {
       padding: 10px 40px;
       border-radius: 10px;
@@ -272,7 +272,7 @@ footer h4 {
       font-size: 15px;
       color: white;
       text-decoration: none;
-    }
+    } 
 }
 
 @media (min-width: 720px) and (max-width: 992px) {
@@ -292,7 +292,7 @@ footer h4 {
       display: flex;
       justify-content: space-between;
   }
-
+  
   .nav-links {
       display: flex;
       width: 100%;
@@ -312,12 +312,12 @@ footer h4 {
       left: 80px;
       position: absolute;
   }
-
+  
   h1.large-title {
       font-size: 35px;
       color: black;
   }
-
+  
   p.text-muted {
       font-size: 20px;
       color: black;
@@ -338,7 +338,7 @@ footer h4 {
       cursor: pointer;
       transition: .5s;
   }
-
+  
   button.btn-primary:hover {
       width: 70%;
   }
@@ -348,13 +348,13 @@ footer h4 {
       background-color: white;
       text-align: center;
   }
-
+  
   footer h4 {
       font-size: 20px;
       letter-spacing: 5px;
       margin-bottom: 50px;
   }
-
+  
   .button-dimensi {
       padding: 12px 24px;
       color: black;
@@ -362,7 +362,7 @@ footer h4 {
       opacity: 0,7;
       border-radius: 4px;
     }
-
+    
     .tombol-aktif {
       padding: 10px 40px;
       border-radius: 10px;
